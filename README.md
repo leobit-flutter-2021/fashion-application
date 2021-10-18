@@ -19,5 +19,12 @@ Screenshot:
 ![image](https://user-images.githubusercontent.com/57871748/137684745-9f3b8dd5-b9df-44d4-be61-eecaabeeb908.png)
 
 
+# Screen extension
+
+When you expand the screen, this application saves the landscape.
+
+Screenshot:
+
+![image](https://user-images.githubusercontent.com/57871748/137685168-2a22e69c-9a74-4f97-a33a-e2c8dbb4af87.png)
 
 

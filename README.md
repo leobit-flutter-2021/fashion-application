@@ -1,6 +1,6 @@
 # Flutter
 
-This work is done on the subject of fashion
+This work is done on the subject of fashion. 
 
 # Application "Home Page"
 

@@ -2,6 +2,11 @@
 
 This work is done on the subject of fashion. 
 
+# Work
+
+The file called "main.dart" contains an overview of the design of the home profile.
+The file named "secondpage.dart" displays a page that represents the purchase of the necessary items through the user's profile.
+
 # Application "Home Page"
 
 Screenshots:

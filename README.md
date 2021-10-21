@@ -34,3 +34,14 @@ Screenshot:
 ![image](https://user-images.githubusercontent.com/57871748/137685168-2a22e69c-9a74-4f97-a33a-e2c8dbb4af87.png)
 
 
+# Widget tree
+
+The widget tree of this work can be viewed after downloading and opening this project in your development environment.
+
+1. Ctrl + Shift + P;
+2. open DevTools;
+3. open Widget Inspector Page.
+
+After completing these steps on the right of the screen you can see a list of used options in a tree structure.
+
+

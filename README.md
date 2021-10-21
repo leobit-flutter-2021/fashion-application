@@ -45,3 +45,13 @@ The widget tree of this work can be viewed after downloading and opening this pr
 After completing these steps on the right of the screen you can see a list of used options in a tree structure.
 
 
+# Developers
+
+The team consists of four developers. 
+
+Nazarii Tsiupryk
+Shulika Illia
+Yura Loboda
+Kabulov Tymur
+
+

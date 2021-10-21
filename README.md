@@ -50,8 +50,11 @@ After completing these steps on the right of the screen you can see a list of us
 The team consists of four developers. 
 
 Nazarii Tsiupryk
+
 Shulika Illia
+
 Yura Loboda
+
 Kabulov Tymur
 
 

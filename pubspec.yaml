@@ -1,4 +1,4 @@
-name: flutter_laboratory
+name: fashion_application
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -65,10 +65,12 @@ flutter:
     - assets/the_fourth_image.jpeg
     - assets/the_fifth_image.jpeg
     - assets/the_sixth_image.jpeg
+    - assets/the_seventh_image.jpeg
     - assets/dress.jpg
     - assets/chanellogo.jpg
     - assets/chloelogo.png
     - assets/louisvuitton.jpg
+  #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -85,7 +87,12 @@ flutter:
     - family: Montserrat
       fonts:
         - asset: assets/fonts/Montserrat-Regular.ttf
-    
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

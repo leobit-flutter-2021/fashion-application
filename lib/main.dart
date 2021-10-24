@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_laboratory/secondpage.dart';
+import 'package:fashion_application/secondpage.dart';
 
 void main() => runApp(MyApp());
 
@@ -67,13 +67,18 @@ class _MyHomePageState extends State<MyHomePage>
             width: double.infinity,
             child: ListView(
               scrollDirection: Axis.horizontal,
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.all(3.0),
               children: <Widget>[
-                listItem('assets/the_fourth_image.jpeg', 'assets/chanellogo.jpg'),
+                listItem(
+                    'assets/the_fourth_image.jpeg', 'assets/chanellogo.jpg'),
                 SizedBox(width: 35.0),
-                listItem('assets/the_second_image.jpeg', 'assets/louisvuitton.jpg'),
+                listItem(
+                    'assets/the_second_image.jpeg', 'assets/louisvuitton.jpg'),
                 SizedBox(width: 35.0),
                 listItem('assets/the_third_image.jpeg', 'assets/chloelogo.png'),
+                SizedBox(width: 35.0),
+                listItem(
+                    'assets/the_seventh_image.jpeg', 'assets/chanellogo.jpg')
               ],
             ),
           ),
@@ -97,9 +102,10 @@ class _MyHomePageState extends State<MyHomePage>
                           height: 50.0,
                           width: 50.0,
                           decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(17.0),
+                              borderRadius: BorderRadius.circular(18.0),
                               image: DecorationImage(
-                                  image: AssetImage('assets/the_third_image.jpeg'),
+                                  image: AssetImage(
+                                      'assets/the_seventh_image.jpeg'),
                                   fit: BoxFit.cover)),
                         ),
                         SizedBox(width: 10.0),
@@ -112,11 +118,11 @@ class _MyHomePageState extends State<MyHomePage>
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>[
                                   Text(
-                                    'Dana Deineka',
+                                    'Kristi',
                                     style: TextStyle(
                                         fontFamily: 'Montserrat',
-                                        fontSize: 14.0,
-                                        fontWeight: FontWeight.bold),
+                                        fontSize: 17.0,
+                                        fontWeight: FontWeight.normal),
                                   ),
                                   SizedBox(height: 2.0),
                                   Text(
@@ -128,8 +134,8 @@ class _MyHomePageState extends State<MyHomePage>
                                   ),
                                 ],
                               ),
-                              Icon(Icons.more_vert,
-                                  color: Colors.grey, size: 20.0)
+                              Icon(Icons.room_service_sharp,
+                                  color: Colors.red, size: 20.0)
                             ],
                           ),
                         )
@@ -137,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage>
                     ),
                     SizedBox(height: 12.0),
                     Text(
-                      'This official website features a ribbed knit zipper jacket that is modern and stylish. It looks very temparament and is recommended to friends',
+                      'This official website features a ribbed knit zipper jacket that is modern and stylish. It looks very temparament and is recommended to friends.',
                       style: TextStyle(
                           fontFamily: 'Montserrat',
                           fontSize: 12.0,
@@ -149,8 +155,8 @@ class _MyHomePageState extends State<MyHomePage>
                         InkWell(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => SecondPage(heroTag: 'assets/the_first_image.jpeg')
-                            ));
+                                builder: (context) => SecondPage(
+                                    heroTag: 'assets/the_first_image.jpeg')));
                           },
                           child: Hero(
                             tag: 'assets/the_first_image.jpeg',
@@ -173,15 +179,16 @@ class _MyHomePageState extends State<MyHomePage>
                         Column(
                           children: <Widget>[
                             InkWell(
-                                onTap: () {
+                              onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) => SecondPage(heroTag: 'assets/the_sixth_image.jpeg')
-                                ));
+                                    builder: (context) => SecondPage(
+                                        heroTag:
+                                            'assets/the_sixth_image.jpeg')));
                               },
-                                child: Hero(
+                              child: Hero(
                                 tag: 'assets/the_sixth_image.jpeg',
                                 child: Container(
-                                  height: 96.0,
+                                  height: 99.0,
                                   width: (MediaQuery.of(context).size.width -
                                           100.0) /
                                       2,
@@ -198,10 +205,11 @@ class _MyHomePageState extends State<MyHomePage>
                             InkWell(
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) => SecondPage(heroTag: 'assets/the_fifth_image.jpeg')
-                                ));
-                              },  
-                                child: Hero(
+                                    builder: (context) => SecondPage(
+                                        heroTag:
+                                            'assets/the_fifth_image.jpeg')));
+                              },
+                              child: Hero(
                                 tag: 'assets/the_fifth_image.jpeg',
                                 child: Container(
                                   height: 96.0,
@@ -236,7 +244,7 @@ class _MyHomePageState extends State<MyHomePage>
                               '# Branded clothing',
                               style: TextStyle(
                                   fontFamily: 'Montserrat',
-                                  fontSize: 10.0,
+                                  fontSize: 15.0,
                                   color: Colors.brown),
                             ),
                           ),
@@ -253,7 +261,7 @@ class _MyHomePageState extends State<MyHomePage>
                               '# Beauty',
                               style: TextStyle(
                                   fontFamily: 'Montserrat',
-                                  fontSize: 10.0,
+                                  fontSize: 15.0,
                                   color: Colors.brown),
                             ),
                           ),
@@ -270,7 +278,7 @@ class _MyHomePageState extends State<MyHomePage>
                     SizedBox(height: 20.0),
                     Row(
                       children: <Widget>[
-                        Icon(Icons.reply,
+                        Icon(Icons.favorite,
                             color: Colors.grey.withOpacity(0.4), size: 20.0),
                         SizedBox(width: 5.0),
                         Text(
@@ -296,7 +304,7 @@ class _MyHomePageState extends State<MyHomePage>
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: <Widget>[
                               Icon(
-                                Icons.favorite,
+                                Icons.gif,
                                 color: Colors.red,
                                 size: 20.0,
                               ),

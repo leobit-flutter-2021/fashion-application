@@ -4,9 +4,9 @@ This work is done on the subject of fashion.
 
 # Work
 
-The file called "main.dart" contains an overview of the design of the home profile.
+* The file called "main.dart" contains an overview of the design of the home profile.
 
-The file named "secondpage.dart" displays a page that represents the purchase of the necessary items through the user's profile.
+* The file named "secondpage.dart" displays a page that represents the purchase of the necessary items through the user's profile.
 
 # Application "Home Page"
 
@@ -49,12 +49,12 @@ After completing these steps on the right of the screen you can see a list of us
 
 The team consists of four developers. 
 
-Nazarii Tsiupryk
+* Nazarii Tsiupryk
 
-Shulika Illia
+* Shulika Illia
 
-Yura Loboda
+* Yura Loboda
 
-Kabulov Tymur
+* Kabulov Tymur
 
 

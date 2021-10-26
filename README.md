@@ -1,12 +1,12 @@
-# Flutter
+### Flutter + Dart
 
-This work is done on the subject of fashion. 
+**This work is done on the subject of fashion**. 
 
 # Work
 
-* The file called "main.dart" contains an overview of the design of the home profile.
+* The file called **"main.dart"** contains an overview of the design of the home profile.
 
-* The file named "secondpage.dart" displays a page that represents the purchase of the necessary items through the user's profile.
+* The file named **secondpage.dart"** displays a page that represents the purchase of the necessary items through the user's profile.
 
 # Application "Home Page"
 
@@ -18,7 +18,9 @@ Screenshots:
 
 # Navigation
 
-Description. Clicking on any of the photos in your profile takes you to another page. This page displays information about a girl buying a certain accessory.
+Description. 
+
+**Clicking on any of the photos in your profile takes you to another page. This page displays information about a girl buying a certain accessory**.
 
 Screenshot:
 
@@ -58,5 +60,15 @@ The team consists of four developers.
 * Yura Loboda
 
 * Kabulov Tymur
+
+# Usage
+
+Command prompt.
+
+* **git clone** https://github.com/Nazarko12/fashion-application.git ;
+* **cd** fashion-application/ ;
+* **flutter run** .
+
+You can run this application in browsers and in the Android emulator.
 
 

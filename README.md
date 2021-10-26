@@ -18,7 +18,7 @@ Screenshots:
 
 # Navigation
 
-Description. 
+**Description**. 
 
 **Clicking on any of the photos in your profile takes you to another page. This page displays information about a girl buying a certain accessory**.
 
@@ -31,7 +31,7 @@ Screenshot:
 
 When you expand the screen, this application saves the landscape.
 
-* However, changing the extension changes the look of the photos related to the page navigation.
+* **However, changing the extension changes the look of the photos related to the page navigation**.
 
 Screenshot:
 
@@ -65,7 +65,7 @@ The team consists of four developers.
 
 Command prompt.
 
-* **git clone** https://github.com/Nazarko12/fashion-application.git ;
+* **git clone** https://github.com/leobit-flutter-2021/fashion-application.git ;
 * **cd** fashion-application/ ;
 * **flutter run** .
 
